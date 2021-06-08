@@ -18,10 +18,10 @@ This repository contains the model trained with our ICIP 2021 paper on [Interact
 
 The pretrained model and the features of GeorgiaTech dataset are provided:
 - Pretrained model is available in the `data/` folder.
+- Homographies are available [here](https://drive.google.com/file/d/1KJlx1XYzBza4xOR06-OxdP9g2hZkbux3/view?usp=sharing).
 - Relational and non-relational features are available in `data/all_features.zip`. Two types of files are given:
   - `f_*`: they contain the non-relational features for each individual for each frame with the following format: <p align="center">[ID, x_position, y_position, distance_from_camera, pitch, roll, yaw]</p>
   - `d_*`: they contain the relational features for each frame, i.e. the distance between two people _i_ and _j_, with the following format: <p align="center">[ID_i, ID_j, distance]</p>
-- Homographies are available [here](https://drive.google.com/file/d/1KJlx1XYzBza4xOR06-OxdP9g2hZkbux3/view?usp=sharing).
 
 ### Challenging cases
 In `examples/`, some challenging, failure and success examples are reported.
@@ -39,7 +39,7 @@ In `examples/`, some challenging, failure and success examples are reported.
  If you find this work useful in your research, please cite:
 
 ```
-@inproceedings{felicioni2021,
+@inproceedings{felicioniICIP2021,
 Author = {Felicioni, Simone and Dimiccoli, Mariella},
 Title = {Interaction-GCN: a Graph Convolutional Network based framework for social interaction recognition in egocentric videos},
 Booktitle  = {IEEE International Conference on Image Processing (ICIP)},
