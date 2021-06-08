@@ -18,6 +18,7 @@ The pretrained model and the features of GeorgiaTech dataset [2] are provided:
 ### Challenging cases
 In `examples/`, some challenging, failure and success examples are reported.
 
+<br />
 
 <p align="center">
   <img src="workflow.png" width="600"/>
