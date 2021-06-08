@@ -1,6 +1,6 @@
 # InteractionGCN
 
-This repository contains the model trained with our ICIP 2021 paper on [Interaction-GCN: a Graph Convolutional Network based framework for social interaction recognition in egocentric videos](https://arxiv.org/abs/2104.14007), as well as the features extracted from the GeorgiaTech dataset (available [here](http://cbs.ic.gatech.edu/egocentric/datasets.htm)) we used as input to our model. 
+This repository contains the model trained with our ICIP 2021 paper on [Interaction-GCN: A Graph Convolutional Network based framework for social interaction recognition in egocentric videos](https://arxiv.org/abs/2104.14007), as well as the features extracted from the GeorgiaTech dataset (available [here](http://cbs.ic.gatech.edu/egocentric/datasets.htm)) we used as input to our model. 
 
 <br />
 <p align="center">
@@ -41,7 +41,7 @@ In `examples/`, some challenging, failure and success examples are reported.
 ```
 @inproceedings{felicioniICIP2021,
 Author = {Felicioni, Simone and Dimiccoli, Mariella},
-Title = {Interaction-GCN: a Graph Convolutional Network based framework for social interaction recognition in egocentric videos},
+Title = {Interaction-GCN: A Graph Convolutional Network based framework for social interaction recognition in egocentric videos},
 Booktitle  = {IEEE International Conference on Image Processing (ICIP)},
 Year = {2021}
 }
