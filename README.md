@@ -1,6 +1,6 @@
 # InteractionGCN
 
-This repository will contain the GCN-based implementation [1] for social interaction classification on GeorgiaTech Social Interaction dataset [2] available ![here](http://cbs.ic.gatech.edu/egocentric/datasets.htm).
+This repository will contain the GCN-based implementation [1] for social interaction classification on GeorgiaTech Social Interaction dataset [2] available [here](http://cbs.ic.gatech.edu/egocentric/datasets.htm).
 
 ### Updates
 - **20/05/2021**: Accepted to ICIP 2021.
@@ -13,7 +13,7 @@ The pretrained model and the features of GeorgiaTech dataset [2] are provided:
 - Relational and non-relational features are available in `data/all_features.zip`. Two types of files are given:
   - `f_*`: they contain the non-relational features for each individual for each frame with the following format: <p align="center">[ID, x_position, y_position, distance_from_camera, pitch, roll, yaw]</p>
   - `d_*`: they contain the relational features for each frame, i.e. the distance between two people _i_ and _j_, with the following format: <p align="center">[ID_i, ID_j, distance]</p>
-- Homographies are available ![here](https://drive.google.com/file/d/1KJlx1XYzBza4xOR06-OxdP9g2hZkbux3/view?usp=sharing).
+- Homographies are available [here](https://drive.google.com/file/d/1KJlx1XYzBza4xOR06-OxdP9g2hZkbux3/view?usp=sharing).
 
 ### Challenging cases
 In `examples/`, some challenging, failure and success examples are reported.
