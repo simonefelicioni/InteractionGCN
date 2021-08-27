@@ -40,9 +40,12 @@ In `examples/`, some challenging, failure and success examples are reported.
 
 ```
 @inproceedings{felicioniICIP2021,
-Author = {Felicioni, Simone and Dimiccoli, Mariella},
-Title = {Interaction-GCN: A Graph Convolutional Network based framework for social interaction recognition in egocentric videos},
-Booktitle  = {IEEE International Conference on Image Processing (ICIP)},
-Year = {2021}
-}
+  author={Felicioni, Simone and Dimiccoli, Mariella},
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Interaction-GCN: A Graph Convolutional Network Based Framework for Social Interaction Recognition in Egocentric Videos}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={2348-2352},
+  doi={10.1109/ICIP42928.2021.9506690}}
 ```
